@@ -1,6 +1,5 @@
 package com.acesoft.binarysearch;
 
-import java.lang.Math;
 import java.util.Arrays;
 
 /*
