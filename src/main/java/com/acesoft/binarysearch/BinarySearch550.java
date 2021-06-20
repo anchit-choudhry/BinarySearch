@@ -2,15 +2,15 @@ package com.acesoft.binarysearch;
 
 /*
  * https://binarysearch.com/problems/Unique-Integers-in-Sorted-List
- * 
+ *
  * Given a list of sorted integers nums return the number of unique integers in the list.
- * 
+ *
  * Constraints
  * n ≤ 1,000,000 where n is the length of nums
  *
- * Notes 
+ * Notes
  * \mathcal{O}(n)O(n) is accepted but \mathcal{O}(k\log{}n)O(klogn) is encouraged.
- * 
+ *
  * Example 1
  * Input
  * nums = [2, 2, 2, 3, 4, 6, 6]

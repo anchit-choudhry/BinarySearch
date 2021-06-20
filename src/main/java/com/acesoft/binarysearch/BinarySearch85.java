@@ -2,11 +2,11 @@ package com.acesoft.binarysearch;
 
 /*
  * https://binarysearch.com/problems/Sum-of-the-Digits
- * 
+ *
  * Given a positive integer num, return the sum of its digits.
- * 
+ *
  * Bonus: Can you do it without using strings?
- * 
+ *
  * Constraints
  * 0 ≤ num < 2 ** 31
  *
@@ -17,7 +17,7 @@ package com.acesoft.binarysearch;
  * 6
  * Explanation
  * Since 6 = 1 + 2 + 3
- * 
+ *
  * Example 2
  * Input
  * num = 50
