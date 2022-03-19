@@ -67,6 +67,6 @@ public class BinarySearch1028 {
                 }
             }
         }
-        return hs.size() == 0;
+        return hs.isEmpty();
     }
 }

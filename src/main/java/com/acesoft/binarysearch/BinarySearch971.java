@@ -47,7 +47,8 @@ public class BinarySearch971 {
         Set<String> hs = new HashSet<>();
         Set<Integer> result = new HashSet<>();
         for (int[] relation : relations) {
-            String abc = relation[0] <= relation[1] ? String.valueOf(relation[0]) + String.valueOf(relation[1])
+            String abc = relation[0] <= relation[1]
+                    ? String.valueOf(relation[0]) + String.valueOf(relation[1])
                     : String.valueOf(relation[1]) + String.valueOf(relation[0]);
             if (!hs.add(abc)) {
                 result.add(relation[0]);
