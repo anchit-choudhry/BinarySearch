@@ -9,4 +9,5 @@
 
 BinarySearch Problems: [https://binarysearch.com/problems](https://binarysearch.com/problems)
 
-Please feel free to reach out to me for questions/corrections. Open to PRs for optimizing the current solutions
+Please feel free to reach out to me for questions/corrections.
+Open to PRs for optimizing the current solutions
