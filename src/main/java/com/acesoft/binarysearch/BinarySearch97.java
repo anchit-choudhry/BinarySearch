@@ -29,7 +29,8 @@ package com.acesoft.binarysearch;
 public class BinarySearch97 {
 
     public boolean solve(String s) {
-        int len = s.length(), i;
+        int i;
+        int len = s.length();
         for (i = 0; i < len / 2; i++) {
             if (s.charAt(i) != s.charAt(len - i - 1)) {
                 return false;
