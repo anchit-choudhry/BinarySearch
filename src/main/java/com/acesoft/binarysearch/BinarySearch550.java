@@ -22,7 +22,8 @@ package com.acesoft.binarysearch;
 public class BinarySearch550 {
 
     public int solve(int[] nums) {
-        int i, diffs = 0;
+        int i;
+        int diffs = 0;
         for (i = 1; i < nums.length; i++) {
             if (nums[i] > nums[i - 1]) {
                 diffs++;

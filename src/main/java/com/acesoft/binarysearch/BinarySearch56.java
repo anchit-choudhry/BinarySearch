@@ -46,7 +46,10 @@ public class BinarySearch56 {
         if (n == 3) {
             return 2;
         }
-        int i, x = 2, y = 3, sum;
+        int i;
+        int sum;
+        int x = 2;
+        int y = 3;
         for (i = 0; i < n - 4; i++) {
             sum = x + y;
             x = y;

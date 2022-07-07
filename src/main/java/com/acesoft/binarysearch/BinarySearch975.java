@@ -57,11 +57,13 @@ public class BinarySearch975 {
         if (threshold == 0) {
             return 0;
         }
-        int i, sum = 0, currentFives = 0;
+        int i;
+        int currentFives = 0;
+        int sum = 0;
         for (i = 0; i < reviews.length; i++) {
             currentFives += reviews[i][0];
             sum += reviews[i][1];
         }
-        return (int) Math.ceil(((threshold * sum) - (100.0 * currentFives)) / (100.0 - threshold));
+        return (int) Math.ceil((threshold * sum - 100.0 * currentFives) / (100.0 - threshold));
     }
 }

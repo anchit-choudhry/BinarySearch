@@ -31,7 +31,9 @@ package com.acesoft.binarysearch;
 public class BinarySearch515 {
 
     public boolean solve(int[] nums, int k) {
-        int i, sum = 0, rem;
+        int i;
+        int rem;
+        int sum = 0;
         for (i = 0; i < nums.length; i++) {
             sum += nums[i];
         }

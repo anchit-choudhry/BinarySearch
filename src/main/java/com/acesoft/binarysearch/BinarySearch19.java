@@ -40,7 +40,8 @@ public class BinarySearch19 {
             return true;
         }
         int i;
-        boolean ascFlag = true, descFlag = true;
+        boolean ascFlag = true;
+        boolean descFlag = true;
         for (i = 1; i < nums.length; i++) {
             if (nums[i] <= nums[i - 1]) {
                 ascFlag = false;
