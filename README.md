@@ -1,7 +1,6 @@
 # BinarySearch
 
 [![Java CI with Maven](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/maven.yml/badge.svg)](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/maven.yml)
-[![Codacy Security Scan](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/codacy-analysis.yml)
 [![CodeQL](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/codeql-analysis.yml)
 [![DevSkim](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/devskim.yml/badge.svg)](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/devskim.yml)
 [![Lint Code Base](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/super-linter.yml/badge.svg)](https://github.com/anchit-choudhry/BinarySearch/actions/workflows/super-linter.yml)
