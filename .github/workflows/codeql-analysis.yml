@@ -73,12 +73,5 @@ jobs:
     #   make bootstrap
     #   make release
 
-    # Commented to fix: Aborting upload: only one run of the codeql/analyze or
-    # codeql/upload-sarif actions is allowed per job per tool/category
-    # - name: Perform CodeQL Analysis
-    #  uses: github/codeql-action/analyze@v2
-      
-    - name: Upload SARIF file
-      uses: github/codeql-action/upload-sarif@v2
-      with:
-        sarif_file: results/java.sarif
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
